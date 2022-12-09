@@ -9,28 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a46a5b-c29a-4ff5-93d5-979532defd41" name="Changes" comment="jsp project5 - first report&#10;commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/member/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/member/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/member/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/member/UserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/util/LoginCheckInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/DataSourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/board-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/user-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/snowman-1882635_1920.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc58e18f-363f-4f37-9144-1150455a4bba.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc58e18f-363f-4f37-9144-1150455a4bba.xml" afterDir="false" />
+    <list default="true" id="17a46a5b-c29a-4ff5-93d5-979532defd41" name="Changes" comment="jsp project5&#10;commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/board/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/board/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/board/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/board/BoardDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/board/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/board/BoardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/board/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/board/BoardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/snowman-1882635_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/snowman.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +268,7 @@
       <workItem from="1670129673257" duration="1431000" />
       <workItem from="1670131460657" duration="2900000" />
       <workItem from="1670135702184" duration="3760000" />
-      <workItem from="1670569721555" duration="13278000" />
+      <workItem from="1670569721555" duration="14360000" />
     </task>
     <task id="LOCAL-00001" summary="jsp project5 - first report">
       <created>1670136985822</created>
@@ -309,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670138080910</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="jsp project5&#10;commit">
+      <created>1670590532268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670590532268</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +318,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jsp project5 - first report" />
     <MESSAGE value="jsp project5 - first report&#10;commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="jsp project5 - first report&#10;commit" />
+    <MESSAGE value="jsp project5&#10;commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="jsp project5&#10;commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
