@@ -9,10 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a46a5b-c29a-4ff5-93d5-979532defd41" name="Changes" comment="jsp project5&#10;commit">
+    <list default="true" id="17a46a5b-c29a-4ff5-93d5-979532defd41" name="Changes" comment="jsp project5&#10;change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/snowman-1882635_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/snowman.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +266,7 @@
       <workItem from="1670129673257" duration="1431000" />
       <workItem from="1670131460657" duration="2900000" />
       <workItem from="1670135702184" duration="3760000" />
-      <workItem from="1670569721555" duration="14360000" />
+      <workItem from="1670569721555" duration="15162000" />
     </task>
     <task id="LOCAL-00001" summary="jsp project5 - first report">
       <created>1670136985822</created>
@@ -298,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670590532268</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="jsp project5&#10;change">
+      <created>1670591765529</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670591765529</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +324,8 @@
     <MESSAGE value="jsp project5 - first report" />
     <MESSAGE value="jsp project5 - first report&#10;commit" />
     <MESSAGE value="jsp project5&#10;commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="jsp project5&#10;commit" />
+    <MESSAGE value="jsp project5&#10;change" />
+    <option name="LAST_COMMIT_MESSAGE" value="jsp project5&#10;change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
