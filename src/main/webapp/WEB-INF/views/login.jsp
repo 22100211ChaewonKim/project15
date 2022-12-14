@@ -21,18 +21,21 @@
         }
 
         button {
-            background-color: blue;
-            color: white;
+            background-color: skyblue;
+            color: black;
             font-size: 15px
         }
+
     </style>
 </head>
 <body>
-<div style='width:100%;text-align:center;padding-top:100px'><img src='../img/snowman.jpg' height="250">
+<div style='width:100%;text-align:center;padding-top:100px; background: linear-gradient(to bottom, lightblue, whitesmoke, white)'>
+    <img src='../img/snowman.jpg' height="300">
     <form method="post" action="loginOk">
         <div><label>User ID: </label><input type='text' name='userid'/></div>
         <div><label>Password: </label>
             <input type='password' name='password'/></div>
+        <p></p>
         <button type='submit'>login</button>
     </form>
 </div>
