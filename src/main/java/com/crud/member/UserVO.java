@@ -2,8 +2,8 @@ package com.crud.member;
 
 public class UserVO {
     private String userid;
-    private String password;
-    private String username;
+    private  String username;
+    private String pwd;
 
     public String getUserid() {
         return userid;
@@ -13,19 +13,19 @@ public class UserVO {
         this.userid = userid;
     }
 
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
     public String getUsername() {
         return username;
     }
 
     public void setUsername(String username) {
         this.username = username;
+    }
+
+    public String getPwd() {
+        return pwd;
+    }
+
+    public void setPwd(String pwd) {
+        this.pwd = pwd;
     }
 }

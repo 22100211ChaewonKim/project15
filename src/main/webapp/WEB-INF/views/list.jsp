@@ -1,4 +1,4 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page isELIgnored="false" %>
 <%--
   Created by IntelliJ IDEA.
@@ -11,7 +11,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>free board</title>
+    <title>Set list Board</title>
     <style>
         #list {
             font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -21,33 +21,38 @@
         #list td, #list th {
             border: 1px solid #ddd;
             padding: 8px;
-            text-align:center;
+            text-align: center;
         }
-        #list tr:nth-child(even){background-color: #f2f2f2;}
-        #list tr:hover {background-color: #ddd;}
+        #list tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        #list tr:hover {
+            background-color: #E3FFE3; color: black;
+        }
         #list th {
             padding-top: 12px;
             padding-bottom: 12px;
             text-align: center;
-            background-color: #006bb3;
+            background-color: #8D9E8D;
             color: white;
         }
     </style>
+    <script src="https://kit.fontawesome.com/ebba58ba2d.js" crossorigin="anonymous"></script>
     <script>
-        function delete_ok(id){
+        function delete_ok(id) {
             var a = confirm("정말로 삭제하겠습니까?");
-            if(a) location.href='deleteok/' + id;
+            if (a) location.href = 'deleteok/' + id;
         }
     </script>
 </head>
 <body>
-<h1>자유 게시판</h1>
-
+<h1>찬양 콘티 공유 게시판</h1>
 <table id="list">
     <tr>
         <th>ID</th>
         <th>Title</th>
         <th>Writer</th>
+        <th>Team</th>
         <th>Contents</th>
         <th>작성일</th>
         <th>Edit</th>
@@ -59,9 +64,13 @@
             <td>${board.seq}</td>
             <td>${board.title}</td>
             <td>${board.writer}</td>
+            <td>${board.team}</td>
             <td>${board.content}</td>
             <td>${board.regdate}</td>
-            <td><a href="editform/${board.seq}">Edit</a></td>
+            <td><a href="editform/${board.seq}">
+                <i class="fa-solid fa-eye"></i>
+            </a></td>
+            </a></td>
             <td><a href="javascript:delete_ok('${board.seq}')">Delete</a></td>
         </tr>
     </c:forEach>

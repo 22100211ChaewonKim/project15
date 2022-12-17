@@ -11,8 +11,8 @@ public class LoginCheckInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         HttpSession session = request.getSession();
-        Object obj = session.getAttribute("login");
-        if (obj == null) {
+        Object ob = session.getAttribute("login");
+        if (ob == null) {
             response.sendRedirect(request.getContextPath() + "/login/login");
             return false;
         }
@@ -20,7 +20,7 @@ public class LoginCheckInterceptor implements HandlerInterceptor {
     }
 
     @Override
-    public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
-        HandlerInterceptor.super.postHandle(request, response, handler, modelAndView);
+    public void postHandle(HttpServletRequest rq, HttpServletResponse rs, Object o, ModelAndView mv) throws Exception {
+        HandlerInterceptor.super.postHandle(rq, rs, o, mv);
     }
 }

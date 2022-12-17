@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import javax.servlet.http.HttpSession;
 
 @Controller
-@RequestMapping(value = "/login")
+@RequestMapping("/login")
 public class LoginController {
     @Autowired
-    UserServiceImpl service;
+    UserServiceImpl userService;
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String login() {
@@ -24,21 +24,22 @@ public class LoginController {
         if (session.getAttribute("login") != null) {
             session.removeAttribute("login");
         }
-
-        UserVO loginvo = service.getUser(vo); if ( loginvo != null ){ // 로그인 성공 System.out.println("로그인 성공!");
-            session.setAttribute("login", loginvo);
-            returnURL = "redirect:/board/list"; }else { // 로그인 실패
+        UserVO login = userService.getUser(vo);
+        System.out.println(login);
+        if (login != null) { // 로그인 성공
+            System.out.println("로그인 성공!");
+            session.setAttribute("login", login);
+            returnURL = "redirect:/board/list";
+        } else { // 로그인 실패
             System.out.println("로그인 실패!");
-            returnURL = "redirect:/login/login"; }
+            returnURL = "redirect:/login/login";
+        }
         return returnURL;
     }
 
-    // 로그아웃 하는 부분 @RequestMapping(value="/logout")
+    @RequestMapping(value = "/logout")
     public String logout(HttpSession session) {
         session.invalidate();
-        return "redirect:/login/login"; }
-
-
+        return "redirect:/login/login";
+    }
 }
-
-
